@@ -30,7 +30,8 @@ RUN mkdir -p .vim/pack/qf/start && cd .vim/pack/qf/start && \
   git clone https://github.com/ntpeters/vim-better-whitespace.git && \
   git clone https://github.com/kien/ctrlp.vim.git && \
   git clone https://github.com/pangloss/vim-javascript.git && \
-  git clone https://github.com/mxw/vim-jsx.git
+  git clone https://github.com/mxw/vim-jsx.git && \
+  git clone https://github.com/tpope/vim-fugitive.git
 
 ADD vimrc .vimrc
 
