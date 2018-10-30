@@ -25,7 +25,7 @@ nnoremap <Leader>l :bn<cr>
 nnoremap <Leader>h :bp<cr>
 
 nnoremap <Leader>p :CtrlP<CR>
-let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git\|elm-stuff'
+let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git\|elm-stuff\|bundle'
 
 let g:better_whitespace_enabled=1
 let g:strip_whitespace_on_save=1
